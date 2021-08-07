@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cookie&family=Varela+Round&display=swap" rel="stylesheet"> 
+
+    <title>Piano</title>
+
+</head>
+<body>
+    <div class="piano">
+        <div class="text">
+            <h1 class="th1">
+                Playing The Piano is very Esey,<br>But in Rhythm maybe Difficult ; )
+            </h1>
+            <p class="text_p">You can only play the piano with the respective keybord keys ; )</p>
+        </div>
+        <div class="keys">
+            <div class="key">
+                <div data-key="65" class="w k">
+                    <kbd>A</kbd><br>
+                    <span class="sound">C-note</span>
+                </div>
+                <div data-key="87" class="b k">
+                    <kbd>W</kbd><br>
+                    <span class="sound">C#-note</span>
+                </div>
+            </div>
+            
+            <div class="key">
+                <div data-key="83" class="w k">
+                    <kbd>S</kbd><br>
+                    <span class="sound">D-note</span>
+                </div>
+                <div data-key="69" class="b k">
+                    <kbd>E</kbd><br>
+                    <span class="sound">D#-note</span>
+                </div>
+            </div>
+
+            <div class="key">
+                <div data-key="68" class="w k">
+                    <kbd>D</kbd><br>
+                    <span class="sound">E-note</span>
+                </div>
+            </div>
+            
+            <div class="key">
+                <div data-key="70" class="w k">
+                    <kbd>F</kbd><br>
+                    <span class="sound">F-note</span>
+                </div>
+                <div data-key="85" class="b k">
+                    <kbd>U</kbd><br>
+                    <span class="sound">F#-note</span>
+                </div>
+            </div>
+            
+            <div class="key">
+                <div data-key="74" class="w k">
+                    <kbd>J</kbd><br>
+                    <span class="sound">G-note</span>
+                </div>
+                <div data-key="73" class="b k">
+                    <kbd>I</kbd><br>
+                    <span class="sound">G#-note</span>
+                </div>
+            </div>
+            
+            <div class="key">
+                <div data-key="75" class="w k">
+                    <kbd>K</kbd><br>
+                    <span class="sound">A-note</span>
+                </div>
+                <div data-key="79" class="b k">
+                    <kbd>O</kbd><br>
+                    <span class="sound">A#-note</span>
+                </div>
+            </div>
+            
+            <div class="key">
+                <div data-key="76" class="w k">
+                    <kbd>L</kbd><br>
+                    <span class="sound">B-note</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <audio data-key="65" src="sounds/c4.mp3"></audio>
+    <audio data-key="87" src="sounds/ch4.mp3"></audio>
+    <audio data-key="83" src="sounds/d4.mp3"></audio>
+    <audio data-key="69" src="sounds/dh4.mp3"></audio>
+    <audio data-key="68" src="sounds/e4.mp3"></audio>
+    <audio data-key="70" src="sounds/f4.mp3"></audio>
+    <audio data-key="85" src="sounds/fh4.mp3"></audio>
+    <audio data-key="74" src="sounds/g4.mp3"></audio>
+    <audio data-key="73" src="sounds/gh4.mp3"></audio>
+    <audio data-key="75" src="sounds/a4.mp3"></audio>
+    <audio data-key="79" src="sounds/ah4.mp3"></audio>
+    <audio data-key="76" src="sounds/b4.mp3"></audio>
+
+</body>
+</html>

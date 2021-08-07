@@ -1,0 +1,102 @@
+.th1{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    background-color: rgb(241, 109, 0);
+    text-align: center;
+    margin:0;
+    padding: 20px 0 20px 0;
+}
+.text_p{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: #000;
+    /* background-color: rgb(241, 109, 0); */
+    text-align: center;
+}
+.keys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+    /* top: 48%; */
+    /* left: 50%; */
+    /* -ms-transform: translate(-50%, -50%); */
+    /* transform: translate(-50%, -50%); */
+    /* box-shadow: -5px -5px 20px #000; */
+}
+.piano{
+    background-image: url("img/rains.jpg");
+    margin: 0;
+    background-size: cover;
+    height: 600px;
+}
+.key{
+    position: relative;
+}
+.k{
+    transition: all 0.07s;
+    border-radius: 0 0 8px 8px;
+}
+.w{
+    background: #ffffff;
+    border: solid #dddddd .5px;
+    width: 70px;
+    height: 300px;
+    text-align: center;
+
+    box-shadow: 0 0 10px #dddddd;
+    box-shadow: inset 0 0 10px #dddddd;
+}
+.w>span{
+   position: relative;
+   top: 240px;
+}
+.w>kbd{
+   position: relative;
+   top: 240px;
+   font-family: 'Varela Round', sans-serif;
+   font-size: 22px;
+}
+.b{
+    background: #000;
+    color: #fff;
+    height: 180px;
+    width: 47px;
+    text-align: center;
+    font-size: 13px;
+
+    position: absolute;
+    top: 0px;
+    left: 46.5px;
+    z-index: 1;
+
+    box-shadow: -10px 3px 10px #777;
+    /* box-shadow: inset 0 0 10px #222; */
+}
+.b>span{
+    position: relative;
+    top: 130px;
+ }
+ .b>kbd{
+    position: relative;
+    top: 130px;
+
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+ }
+
+ span{
+    font-family: 'Cookie', cursive;
+ }
+ .playing.w{
+    position: relative;
+    transform:scale(1,0.95);
+    border: solid 1px #999;
+    box-shadow: inset -5px 0 20px #555;
+ }
+ .playing.b{
+    position: absolute;
+    top: -1px;
+    box-shadow: 0 0 5px #999;
+ }
